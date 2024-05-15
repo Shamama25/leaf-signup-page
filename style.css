@@ -1,0 +1,61 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    flex: 1; 
+    background-color: #E9F8E5;
+    width: 50%;
+    height: 100vh;
+}
+.left img{
+    width: 70%;
+    height: 90vh;
+    margin: 40px;
+}
+.right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .right img{
+    margin-top: 20px;
+  }
+  .right .options{
+    margin: 2px;
+    width: 120px;
+    height: 40px;
+  }
+  .right form {
+    width: 300px; 
+  }
+  
+  .right input[type="text"],
+  .right input[type="email"],
+  .right input[type="password"],
+  .right input[type="submit"] {
+    width: 350px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+  
+  .right label{
+    color: #847a7a;
+  }
+  .right input[type="submit"] {
+    background-color: #73895D;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .right input[type="submit"]:hover {
+    background-color: #73895D;
+  }
+.right h4{
+    color: #ccc;
+}
